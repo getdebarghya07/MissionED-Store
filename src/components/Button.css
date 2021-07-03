@@ -1,0 +1,58 @@
+:root {
+  --primary: rgb(245, 0, 0);
+}
+
+#bootstrap-overrides .btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#bootstrap-overrides .btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+#bootstrap-overrides .btn--outline {
+  background-color: transparent;
+  color: rgb(245, 1, 1);
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+#bootstrap-overrides .btn--medium {
+  font-size: 18px;
+
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+
+  margin: 10px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+}
+
+#bootstrap-overrides .btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+#bootstrap-overrides .btn--large:hover,
+#bootstrap-overrides .btn--medium:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

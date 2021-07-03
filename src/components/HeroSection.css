@@ -1,0 +1,26 @@
+.row {
+  /* display: -ms-flexbox; */
+  display: flex;
+  /* -ms-flex-wrap: wrap; */
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 960px) {
+  .py-lg-0 {
+    padding-top: 0 !important;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-right: 4em;
+  padding-left: 4em;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}

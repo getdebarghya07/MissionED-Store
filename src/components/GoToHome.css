@@ -1,0 +1,33 @@
+.gotohome {
+  color: red;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.gotohome:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  color: red;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+  .gotohome {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  .gotohome:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+  }
+}
