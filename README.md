@@ -3,7 +3,7 @@ I was assigned to this project by [MissionED](https://www.missioned.in/).
 
 This is a Single Page Application (SPA) I've made using React to renovate the Store section of [MissionED](https://www.missioned.in/)
 
-You can interact with the `Project` [Here](https://missioned-webstore.netlify.app/)
+You can interact with the `Project` [Here](https://missioned-store.netlify.app/)
 
 ## Getting Started with Create React App
 
